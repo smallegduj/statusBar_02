@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  statusBar
-//
-//  Created by MikeWu on 2016/6/28.
-//  Copyright © 2016年 MSMedia. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
@@ -19,7 +11,9 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return .LightContent
+    }
 }
 
